@@ -1,0 +1,29 @@
+main:
+  prefix: "&6[&c&lEasyPlugin&r&6]"
+  allow_perm_use_blocked_commands: "true"
+message:
+  success_reloading_config: "&eThe configuration has been reloaded."
+  not_permission: "&cYou don't have permission to perform this command."
+  sender_isnt_player: "&cSorry! You must be a player to run this command."
+  bad_usage: "&cSorry! I don't recognize your command. Try /easyplugin reload to reload the configuration."
+  use_forbidden_command: "&cUnknown command."
+permission:
+  reload_plugin: "easyplugin.command.reload" # Useless if you're operator on the server. | /easyplugin reload
+  view_blocked_commands: "easyplugin.view_blocked_commands"
+blocked_commands:
+  - "/pl"
+  - "/plugins"
+  - "/about"
+  - "/ver"
+  - "/version"
+  - "/help"
+  - "/?"
+  - "/bukkit:pl"
+  - "/bukkit:plugins"
+  - "/bukkit:about"
+  - "/bukkit:ver"
+  - "/bukkit:version"
+  - "/minecraft:help"
+  - "/minecraft:?"
+  - "/bukkit:help"
+  - "/bukkit:?"

@@ -1,0 +1,7 @@
+name: EasyPlugin
+main: be.maksxou.spigotmc.EasyPlugin
+version: 2.0
+api-version: 1.19
+author: maksxou
+commands:
+  easyplugin:
